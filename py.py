@@ -61,5 +61,5 @@ async def on_ready():
                 i += 1
                 
                 
-access_token = os.environ["BOT_TOKEN"]
-client.run('access_token')
+
+client.run('NjI5NjQ5NTAxNzQ0OTIyNjQ3.Xav-1g.ERmgi8CXNkV0cH2fot7aMyvxgO8')
