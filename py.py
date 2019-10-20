@@ -1,5 +1,5 @@
 import discord
-import os
+import openpyxl
 
 client = discord.Client()
 
@@ -8,7 +8,7 @@ client = discord.Client()
 async def on_ready():
     print(client.user.id)
     print("ready")
-    game = discord.Game("디스코드봇")
+    game = discord.Game("'!명령어' 입력")
     await client.change_presence(status=discord.Status.online, activity=game)
 
     @client.event
@@ -28,6 +28,8 @@ async def on_ready():
             await message.channel.send(file=discord.File(pic))
         if message.content.startswith("!경고 명령어"):
             await message.channel.send("!경고 ID")
+        if message.content.startswith("!명령어"):
+            await message.channel.send("'!+하이,디스코드,노래 명령어,사진 명령어,채널메시지 명령어,경고 명령어'")
         if message.content.startswith("!채널메시지 명령어"):
             await message.channel.send("!채널메시지 ID 할말")
         if message.content.startswith("!채널메시지"):
@@ -56,5 +58,5 @@ async def on_ready():
                     await message.channel.send("경고를 1회 받았습니다.")
                     break
                 i += 1
-access_token = os.environ["BOT_TOKEN"]
-client.run(access_token)
+
+client.run('NjI5NjQ5NTAxNzQ0OTIyNjQ3.Xav3jg.Gzc-FZAUq1bmD5iCA5cQ_wdxyoM')
