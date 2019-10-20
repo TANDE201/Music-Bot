@@ -1,1 +1,1 @@
-worker:Python py.py
+worker: python discord.py
