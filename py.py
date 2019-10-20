@@ -59,4 +59,4 @@ async def on_ready():
                     break
                 i += 1
 
-client.run('NjI5NjQ5NTAxNzQ0OTIyNjQ3.Xav3jg.Gzc-FZAUq1bmD5iCA5cQ_wdxyoM')
+client.run('NjI5NjQ5NTAxNzQ0OTIyNjQ3.Xav5Pw.fs9jP0xJqF7TvwMbQtzHUZKx_Vw')
