@@ -1,6 +1,6 @@
 import discord
 import openpyxl
-import os
+
 
 client = discord.Client()
 
